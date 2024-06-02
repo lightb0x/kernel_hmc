@@ -10,4 +10,4 @@ git+https://github.com/lightb0x/pybo.git#egg=pybo
 git+https://github.com/jcrudy/choldate.git#egg=choldate
 
 # kernel_exp_family
-git+https://github.com/karlnapf/kernel_exp_family.git#egg=kernel_exp_family
+git+https://github.com/lightb0x/kernel_exp_family.git#egg=kernel_exp_family
