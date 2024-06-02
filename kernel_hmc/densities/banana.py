@@ -1,8 +1,8 @@
-from theano import function
-import theano
+from pytensor import function
+import pytensor as theano
 
 import numpy as np
-import theano.tensor as T
+import pytensor.tensor as T
 
 def log_banana_pdf_theano_expr(x, bananicity, V):
     transformed = x.copy()
