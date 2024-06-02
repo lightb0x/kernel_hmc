@@ -24,6 +24,6 @@ def autocorr(x):
     acor = np.correlate(xunbiased, xunbiased, mode='same')
     
     # use only second half, normalise
-    acor = acor[len(acor) / 2:] / xnorm
+    acor = acor[len(acor) // 2:] / xnorm
     
     return acor
